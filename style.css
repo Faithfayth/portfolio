@@ -43,8 +43,8 @@ body {
  }
  .me2 {
     background: #431d6354;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     border: 0.5px solid #0f011b;
     box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
@@ -99,6 +99,7 @@ body {
 .div-card{
     background-color: transparent;
     margin: 5px;
+    width: 18rem;
     /* border: 1px solid #A855F7;
     /* color: #A855F7; */
     /* border-radius: 15px;
@@ -110,8 +111,8 @@ body {
 }
 .card1 {
    background: #431d6354;
+   -webkit-backdrop-filter: blur(5px);
     backdrop-filter: blur(5px);
-    -webkit-backdrop-filter: blur(5px);
     border-radius: 15px;
     border: 0.5px solid rgba(67, 25, 102, 0.329);
     box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
@@ -126,8 +127,8 @@ body {
 }
 .about{
     background: #431d6354;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     border: 0.5px solid rgba(67, 25, 102, 0.329);
     box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
@@ -144,8 +145,8 @@ body {
 }
 .skill-card {
     background: #431d6354;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     border: 0.5px solid rgba(67, 25, 102, 0.329);
     box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
@@ -154,6 +155,7 @@ body {
     margin-top: 20px;
     margin: 5px;
     height: 350px;
+    width: 18rem;
 }
 .skill-card:hover {
     animation: up-down 1s ease-in-out infinite;
@@ -161,27 +163,28 @@ body {
 
 .skill-icon {
    background: linear-gradient(135deg, #ff4fd8, #7b61ff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   font-size: 70px;
 }
 .skill-icon:hover {
   background: linear-gradient(135deg, #ff4fd8, #7b61ff);
-  -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
   filter: drop-shadow(0 0 8px rgba(123, 97, 255, 0.6));
   transition: color 0.3s ease;
 }
 .edu-card {
     background: #431d6354;
-    backdrop-filter: blur(5px);
     -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
     border-radius: 15px;
     border: 0.5px solid rgba(67, 25, 102, 0.329);
     box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
     padding: 20px;
     color: white;
     margin-top: 20px;
+    max-width: 540px;
 }
 .edu-icon {
     font-size: 300px;
