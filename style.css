@@ -11,6 +11,7 @@ body {
     color: #FFFFFF;
     padding-left: 10px;
     padding-right: 10px;
+    font-family: Playfair Display, Lora, Libre Baskerville, serif;
 }
 .gradient-text {
   background: linear-gradient(90deg, #A855F7, #EC4899);
@@ -41,6 +42,32 @@ body {
     margin-bottom: 10vmin;
     
  }
+ /* .navbar {
+    background: #431d6354;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 0.5px solid #0f011b;
+    box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
+    z-index: 1000;
+ } */
+ .navbar .nav-div{
+    background: #431d6354;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    border-radius: 15px;
+    border: 0.5px solid #0f011b;
+    box-shadow: 0 4px 6px rgba(13, 13, 14, 0.1);
+    z-index: 1000;
+ }
+ .brand{
+    font-size: 24px;
+    font-weight: bold;
+    background: linear-gradient(90deg, #A855F7, #EC4899);
+    -webkit-background-clip: text;
+    background-clip: text;
+  -webkit-text-fill-color: transparent;
+ }
  .me2 {
     background: #431d6354;
     -webkit-backdrop-filter: blur(5px);
@@ -52,6 +79,9 @@ body {
     /* width: 300px; */
     margin: 40px;
     min-height: 350px;
+ }
+ .me .me2 h1 {
+    font-weight: 600;
  }
  .btn {
     margin: 10px;
